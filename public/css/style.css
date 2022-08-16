@@ -1,3 +1,46 @@
-h1{
-    color: red;
+.navbar-style{
+background-color: #ac97ef;
+box-shadow: 2px 4px 13px 1px rgba(8,8, 8,0.04);
+}
+#logo{
+display: initial;
+font-weight: 600;
+font-size: 2rem;
+letter-spacing: 1px;
+color: #315ccc;
+text-shadow: 2px 5px 3px rgba(0,0,0,0.06);
+padding: 0;
+}
+.navbar-nav .nav-link{
+color: #ffff;
+text-transform: capitalize;
+letter-spacing: 0.1rem;
+padding-left: 1rem;
+font-size: 1.2rem;
+}
+
+.hero-text h1{
+    font-size: 2.8rem;
+    line-height: 1;
+    text-shadow:5px 4px 11px rgba(0,0,0,0.26);
+    letter-spacing: 0.8px;
+    color: #2f2f2f;
+text-transform:uppercase;
+}
+.hero-text p{
+    font-size: 1.3rem;
+    color: #ac97ef;
+}
+.hero-text p span{
+    font-weight:bold;
+    color:#315ccc
+}
+.hero-text input{
+    background-color: #87e3fa;
+    border: none;
+    outline: none;
+    box-shadow: #2f2f2f;
+}
+img{
+    height: 60vh;
 }
